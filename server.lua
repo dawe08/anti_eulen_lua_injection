@@ -1,0 +1,6 @@
+RegisterServerEvent("tgzfdsvoiufjdhs")
+AddEventHandler("tgzfdsvoiufjdhs", function(resource)
+  local player = tonumber(source)
+  print(player, "Tried to execute uninitialized resource ("..resource..")")
+  DropPlayer(player, "Not good")
+end) 
